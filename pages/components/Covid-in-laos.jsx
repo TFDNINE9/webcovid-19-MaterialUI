@@ -1,5 +1,4 @@
 
-
 import React, { useEffect, useState } from 'react'
 
 function Covidinlaos() {
@@ -30,14 +29,14 @@ function Covidinlaos() {
           <p className="text-xl font-bold text-gray-500">{select.continent}</p>
         </div>
         <div className="px-10">
-          <p class="text-xl text-gray-500 font-bold boonhome my-3">
+          <p className="text-xl text-gray-500 font-bold boonhome my-3">
             - ສະພາບລວມ
           </p>
           <div className="flex">
-            <div class="bg-gray-200 w-48 flex flex-col items-center py-5 shadow-xl rounded-lg">
-              <p class="text-[#6b6767] text-xl boonhome">ຕິດທັງໝົດ</p>
-              <p class="text-[#000000] font-extrabold text-3xl boonhome">
-                {select.cases} <span class="text-lg"> ຄົນ</span>
+            <div className="bg-gray-200 w-48 flex flex-col items-center py-5 shadow-xl rounded-lg">
+              <p className="text-[#6b6767] text-xl boonhome">ຕິດທັງໝົດ</p>
+              <p className="text-[#000000] font-extrabold text-3xl boonhome">
+                {select.cases} <span className="text-lg"> ຄົນ</span>
               </p>
             </div>
             <div className=" bg-gray-200 w-48 flex flex-col items-center py-5 shadow-xl rounded-lg ml-20 ">
@@ -60,7 +59,7 @@ function Covidinlaos() {
             </div>
           </div>
 
-          <p class="text-xl text-gray-500 font-bold boonhome mt-32 mb-3">
+          <p className="text-xl text-gray-500 font-bold boonhome mt-32 mb-3">
             - ລາຍງານປະຈຳວັນ 25/4/2022
           </p>
           <div className="flex">

@@ -78,9 +78,9 @@ function Vaccination() {
                   <MenuItem value={20}>CoronaVac</MenuItem>
                   <MenuItem value={30}>Johnson & Johnson</MenuItem>
                   <MenuItem value={40}>Oxford, AstraZeneca</MenuItem>
-                  <MenuItem value={40}>Sinopharm BBIBP</MenuItem>
-                  <MenuItem value={40}>Sputnik Light</MenuItem>
-                  <MenuItem value={40}>Sputnik V</MenuItem>
+                  <MenuItem value={50}>Sinopharm BBIBP</MenuItem>
+                  <MenuItem value={60}>Sputnik Light</MenuItem>
+                  <MenuItem value={70}>Sputnik V</MenuItem>
                 </Select>
               </FormControl>
             </Box>

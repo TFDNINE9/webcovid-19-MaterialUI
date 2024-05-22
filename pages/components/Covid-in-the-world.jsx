@@ -5,7 +5,7 @@ import { IconButton } from "@mui/material";
 
 function Covidintheworld() {
   const [covidData, setcovidData] = useState([]);
-  const [covidDataCountry, setCovidDataCountry] = useState([]);
+  const [covidDataCountry, setCovidDataCountry] = useState();
 
   const clickHandler = (item) => {
     setCovidDataCountry(item);
@@ -57,10 +57,10 @@ function Covidintheworld() {
               </p>
             </div>
             <div className="flex justify-between">
-              <div class="bg-gray-200 w-48 flex flex-col items-center py-5 shadow-xl rounded-lg">
-                <p class="text-[#6b6767] text-xl boonhome">ຕິດທັງໝົດ</p>
-                <p class="text-[#000000] font-extrabold text-3xl boonhome">
-                  {covidDataCountry.cases} <span class="text-lg"> ຄົນ</span>
+              <div className="bg-gray-200 w-48 flex flex-col items-center py-5 shadow-xl rounded-lg">
+                <p className="text-[#6b6767] text-xl boonhome">ຕິດທັງໝົດ</p>
+                <p className="text-[#000000] font-extrabold text-3xl boonhome">
+                  {covidDataCountry.cases} <span className="text-lg"> ຄົນ</span>
                 </p>
               </div>
               <div className=" bg-gray-200 w-48 flex flex-col items-center py-5 shadow-xl rounded-lg ml-20 ">
@@ -95,7 +95,7 @@ function Covidintheworld() {
             <thead className=" bg-slate-400 h-16">
               <tr>
                 <th>Flag</th>
-                <th class="flex-1">Country Name</th>
+                <th className="flex-1">Country Name</th>
                 <th>Total Cases</th>
                 <th>Total Active</th>
                 <th>Total Deaths</th>
